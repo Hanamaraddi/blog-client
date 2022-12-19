@@ -1,0 +1,51 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://cdn.pixabay.com/photo/2016/11/19/15/31/apple-1839873_960_720.jpg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.registerInput {
+    margin: 15px 0px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.registerBtn{
+    margin-top: 10px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.registerLoginBtn{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

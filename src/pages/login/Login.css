@@ -1,0 +1,51 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://cdn.pixabay.com/photo/2017/10/12/22/17/business-2846221_960_720.jpg");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.loginInput {
+    margin: 15px 0px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginBtn{
+    margin-top: 10px;
+    background-color: teal;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+
+.loginRegisterBtn{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
